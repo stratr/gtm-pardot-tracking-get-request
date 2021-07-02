@@ -1,5 +1,5 @@
 homepage: ""
 documentation: "https://github.com/stratr/gtm-pardot-tracking-get-request"
 versions:
-  - sha: 7c5ec7ba5558dbb80a2f1c5c78573560a5f89c32
+  - sha: 0c8b73af548557eea7f22555f9cbae04f5e05165
     changeNotes: Initial release.
