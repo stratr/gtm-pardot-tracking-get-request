@@ -1,5 +1,5 @@
-homepage: "https://www.fluidogroup.com/?utm_source=gtm-template-gallery&utm_medium=referral&utm_campaign=custom-pardot-gtm-template-details"
-documentation: "https://www.example.com/documentation"
+homepage: ""
+documentation: "https://github.com/stratr/gtm-pardot-tracking-get-request"
 versions:
-  - sha: 5f02a788b90ae804f86b04aa24af8937e567874a
+  - sha: 7c5ec7ba5558dbb80a2f1c5c78573560a5f89c32
     changeNotes: Initial release.
