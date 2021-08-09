@@ -1,5 +1,5 @@
 homepage: "https://www.linkedin.com/in/taneli-salonen/"
-documentation: "https://github.com/stratr/gtm-pardot-tracking-get-request"
+documentation: "https://github.com/taneli-salonen1/gtm-pardot-tracking-get-request"
 versions:
   - sha: 282167083c49080d06cbc569fea1ebc867b4e292
     changeNotes: Added template homepage.
