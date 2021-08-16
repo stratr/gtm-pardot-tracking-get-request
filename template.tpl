@@ -15,10 +15,10 @@ ___INFO___
   "securityGroups": [],
   "displayName": "Pardot Tracking - GET Request",
   "brand": {
-    "id": "brand_dummy",
-    "displayName": ""
+    "id": "github.com_stratr",
+    "displayName": "taneli-salonen1"
   },
-  "description": "Experimental version of a custom Pardot tracking code that doesn\u0027t inject the pd.js script. Can be used to for example set the tracking opt-in or to track page views.",
+  "description": "A custom tracking template for Pardot, which doesn\u0027t load the pd.js script. Can be used for cookie consent alignment: https://help.salesforce.com/s/articleView?id\u003d000313156\u0026type\u003d1",
   "containerContexts": [
     "WEB"
   ]
@@ -98,7 +98,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "LABEL",
     "name": "optInInfo1",
-    "displayName": "Note when setting Pardot Tracking Opt-in"
+    "displayName": "Note when setting Pardot Tracking Opt-in:"
   },
   {
     "type": "LABEL",
@@ -116,12 +116,11 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 /*
-Custom Pardot tracking code template by Fluido.
+Custom Pardot tracking code template for making GET requests to the Pardot analytics server.
 Created by: Taneli Salonen, taneli.salonen@fluidogroup.com
-Updated: 2020-04-26
 
 Known functionality that's missing:
-- Can't run JS code upon response like the original tracking code does. The pd.js code runs a script to set the visitor id as a cookie upon response. This is an addition to the server side cookie that the response sets.
+- Can't run JS code upon response like the original tracking code does. The pd.js code runs a script to set the visitor id as a local JS cookie upon response. This is an addition to the server side cookie that the response sets.
 - Missing analytics params: pi_points, pi_include_in_activies, read from global variables: piIncludeInActivities & piProfileId
 */
 
